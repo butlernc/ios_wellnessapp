@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B00B11C1A70102300518325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B00B11B1A70102300518325 /* Foundation.framework */; };
+		7B00B11E1A70102300518325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B00B11D1A70102300518325 /* CoreGraphics.framework */; };
+		7B00B1201A70102300518325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B00B11F1A70102300518325 /* UIKit.framework */; };
+		7B00B1261A70102300518325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B1241A70102300518325 /* InfoPlist.strings */; };
+		7B00B1281A70102300518325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B1271A70102300518325 /* main.m */; };
+		7B00B12C1A70102300518325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B12B1A70102300518325 /* AppDelegate.m */; };
+		7B00B12F1A70102300518325 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B12D1A70102300518325 /* Main_iPhone.storyboard */; };
+		7B00B1321A70102300518325 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B1301A70102300518325 /* Main_iPad.storyboard */; };
+		7B00B1351A70102300518325 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B1341A70102300518325 /* MasterViewController.m */; };
+		7B00B1381A70102300518325 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B1371A70102300518325 /* DetailViewController.m */; };
+		7B00B13A1A70102300518325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B1391A70102300518325 /* Images.xcassets */; };
+		7B00B1411A70102300518325 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B00B1401A70102300518325 /* XCTest.framework */; };
+		7B00B1421A70102300518325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B00B11B1A70102300518325 /* Foundation.framework */; };
+		7B00B1431A70102300518325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B00B11F1A70102300518325 /* UIKit.framework */; };
+		7B00B14B1A70102300518325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B1491A70102300518325 /* InfoPlist.strings */; };
+		7B00B14D1A70102300518325 /* Step_It_UpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B14C1A70102300518325 /* Step_It_UpTests.m */; };
+		7B00B1631A7044E700518325 /* LoggingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B1621A7044E700518325 /* LoggingHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B00B1441A70102300518325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B00B1101A70102300518325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B00B1171A70102300518325;
+			remoteInfo = "Step It Up";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B00B1181A70102300518325 /* Step It Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step It Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B00B11B1A70102300518325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B00B11D1A70102300518325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B00B11F1A70102300518325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B00B1231A70102300518325 /* Step It Up-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Step It Up-Info.plist"; sourceTree = "<group>"; };
+		7B00B1251A70102300518325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B00B1271A70102300518325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B00B1291A70102300518325 /* Step It Up-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Step It Up-Prefix.pch"; sourceTree = "<group>"; };
+		7B00B12A1A70102300518325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B00B12B1A70102300518325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B00B12E1A70102300518325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7B00B1311A70102300518325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		7B00B1331A70102300518325 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		7B00B1341A70102300518325 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		7B00B1361A70102300518325 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7B00B1371A70102300518325 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7B00B1391A70102300518325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B00B13F1A70102300518325 /* Step It UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step It UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B00B1401A70102300518325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7B00B1481A70102300518325 /* Step It UpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Step It UpTests-Info.plist"; sourceTree = "<group>"; };
+		7B00B14A1A70102300518325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B00B14C1A70102300518325 /* Step_It_UpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Step_It_UpTests.m; sourceTree = "<group>"; };
+		7B00B1611A7044E700518325 /* LoggingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingHelper.h; sourceTree = "<group>"; };
+		7B00B1621A7044E700518325 /* LoggingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggingHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B00B1151A70102300518325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B00B11E1A70102300518325 /* CoreGraphics.framework in Frameworks */,
+				7B00B1201A70102300518325 /* UIKit.framework in Frameworks */,
+				7B00B11C1A70102300518325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B00B13C1A70102300518325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B00B1411A70102300518325 /* XCTest.framework in Frameworks */,
+				7B00B1431A70102300518325 /* UIKit.framework in Frameworks */,
+				7B00B1421A70102300518325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B00B10F1A70102300518325 = {
+			isa = PBXGroup;
+			children = (
+				7B00B1211A70102300518325 /* Step It Up */,
+				7B00B1461A70102300518325 /* Step It UpTests */,
+				7B00B11A1A70102300518325 /* Frameworks */,
+				7B00B1191A70102300518325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B00B1191A70102300518325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B00B1181A70102300518325 /* Step It Up.app */,
+				7B00B13F1A70102300518325 /* Step It UpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B00B11A1A70102300518325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B00B11B1A70102300518325 /* Foundation.framework */,
+				7B00B11D1A70102300518325 /* CoreGraphics.framework */,
+				7B00B11F1A70102300518325 /* UIKit.framework */,
+				7B00B1401A70102300518325 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B00B1211A70102300518325 /* Step It Up */ = {
+			isa = PBXGroup;
+			children = (
+				7B00B1561A70432800518325 /* challengeInfo */,
+				7B00B1571A7043FF00518325 /* data */,
+				7B00B1601A70444B00518325 /* home */,
+				7B00B15F1A70444300518325 /* loading */,
+				7B00B15E1A70443E00518325 /* login */,
+				7B00B15D1A70443400518325 /* pointsbreakdown */,
+				7B00B15C1A70442B00518325 /* register */,
+				7B00B15B1A70442500518325 /* scripts */,
+				7B00B15A1A70441F00518325 /* start */,
+				7B00B1591A70441800518325 /* statics */,
+				7B00B1581A70440E00518325 /* utils */,
+				7B00B12A1A70102300518325 /* AppDelegate.h */,
+				7B00B12B1A70102300518325 /* AppDelegate.m */,
+				7B00B12D1A70102300518325 /* Main_iPhone.storyboard */,
+				7B00B1301A70102300518325 /* Main_iPad.storyboard */,
+				7B00B1331A70102300518325 /* MasterViewController.h */,
+				7B00B1341A70102300518325 /* MasterViewController.m */,
+				7B00B1361A70102300518325 /* DetailViewController.h */,
+				7B00B1371A70102300518325 /* DetailViewController.m */,
+				7B00B1391A70102300518325 /* Images.xcassets */,
+				7B00B1221A70102300518325 /* Supporting Files */,
+			);
+			path = "Step It Up";
+			sourceTree = "<group>";
+		};
+		7B00B1221A70102300518325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B00B1231A70102300518325 /* Step It Up-Info.plist */,
+				7B00B1241A70102300518325 /* InfoPlist.strings */,
+				7B00B1271A70102300518325 /* main.m */,
+				7B00B1291A70102300518325 /* Step It Up-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B00B1461A70102300518325 /* Step It UpTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B00B14C1A70102300518325 /* Step_It_UpTests.m */,
+				7B00B1471A70102300518325 /* Supporting Files */,
+			);
+			path = "Step It UpTests";
+			sourceTree = "<group>";
+		};
+		7B00B1471A70102300518325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B00B1481A70102300518325 /* Step It UpTests-Info.plist */,
+				7B00B1491A70102300518325 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B00B1561A70432800518325 /* challengeInfo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = challengeInfo;
+			sourceTree = "<group>";
+		};
+		7B00B1571A7043FF00518325 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				7B00B1611A7044E700518325 /* LoggingHelper.h */,
+				7B00B1621A7044E700518325 /* LoggingHelper.m */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		7B00B1581A70440E00518325 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		7B00B1591A70441800518325 /* statics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = statics;
+			sourceTree = "<group>";
+		};
+		7B00B15A1A70441F00518325 /* start */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = start;
+			sourceTree = "<group>";
+		};
+		7B00B15B1A70442500518325 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = scripts;
+			sourceTree = "<group>";
+		};
+		7B00B15C1A70442B00518325 /* register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = register;
+			sourceTree = "<group>";
+		};
+		7B00B15D1A70443400518325 /* pointsbreakdown */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = pointsbreakdown;
+			sourceTree = "<group>";
+		};
+		7B00B15E1A70443E00518325 /* login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		7B00B15F1A70444300518325 /* loading */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = loading;
+			sourceTree = "<group>";
+		};
+		7B00B1601A70444B00518325 /* home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B00B1171A70102300518325 /* Step It Up */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B00B1501A70102300518325 /* Build configuration list for PBXNativeTarget "Step It Up" */;
+			buildPhases = (
+				7B00B1141A70102300518325 /* Sources */,
+				7B00B1151A70102300518325 /* Frameworks */,
+				7B00B1161A70102300518325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Step It Up";
+			productName = "Step It Up";
+			productReference = 7B00B1181A70102300518325 /* Step It Up.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B00B13E1A70102300518325 /* Step It UpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B00B1531A70102300518325 /* Build configuration list for PBXNativeTarget "Step It UpTests" */;
+			buildPhases = (
+				7B00B13B1A70102300518325 /* Sources */,
+				7B00B13C1A70102300518325 /* Frameworks */,
+				7B00B13D1A70102300518325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B00B1451A70102300518325 /* PBXTargetDependency */,
+			);
+			name = "Step It UpTests";
+			productName = "Step It UpTests";
+			productReference = 7B00B13F1A70102300518325 /* Step It UpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B00B1101A70102300518325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "UWEC Recreation";
+				TargetAttributes = {
+					7B00B13E1A70102300518325 = {
+						TestTargetID = 7B00B1171A70102300518325;
+					};
+				};
+			};
+			buildConfigurationList = 7B00B1131A70102300518325 /* Build configuration list for PBXProject "Step It Up" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B00B10F1A70102300518325;
+			productRefGroup = 7B00B1191A70102300518325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B00B1171A70102300518325 /* Step It Up */,
+				7B00B13E1A70102300518325 /* Step It UpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B00B1161A70102300518325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B00B1321A70102300518325 /* Main_iPad.storyboard in Resources */,
+				7B00B13A1A70102300518325 /* Images.xcassets in Resources */,
+				7B00B12F1A70102300518325 /* Main_iPhone.storyboard in Resources */,
+				7B00B1261A70102300518325 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B00B13D1A70102300518325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B00B14B1A70102300518325 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B00B1141A70102300518325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B00B1631A7044E700518325 /* LoggingHelper.m in Sources */,
+				7B00B12C1A70102300518325 /* AppDelegate.m in Sources */,
+				7B00B1351A70102300518325 /* MasterViewController.m in Sources */,
+				7B00B1281A70102300518325 /* main.m in Sources */,
+				7B00B1381A70102300518325 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B00B13B1A70102300518325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B00B14D1A70102300518325 /* Step_It_UpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B00B1451A70102300518325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B00B1171A70102300518325 /* Step It Up */;
+			targetProxy = 7B00B1441A70102300518325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B00B1241A70102300518325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B00B1251A70102300518325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B00B12D1A70102300518325 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B00B12E1A70102300518325 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7B00B1301A70102300518325 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B00B1311A70102300518325 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7B00B1491A70102300518325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B00B14A1A70102300518325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B00B14E1A70102300518325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B00B14F1A70102300518325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B00B1511A70102300518325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Step It Up/Step It Up-Prefix.pch";
+				INFOPLIST_FILE = "Step It Up/Step It Up-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B00B1521A70102300518325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Step It Up/Step It Up-Prefix.pch";
+				INFOPLIST_FILE = "Step It Up/Step It Up-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7B00B1541A70102300518325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Step It Up.app/Step It Up";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Step It Up/Step It Up-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Step It UpTests/Step It UpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7B00B1551A70102300518325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Step It Up.app/Step It Up";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Step It Up/Step It Up-Prefix.pch";
+				INFOPLIST_FILE = "Step It UpTests/Step It UpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B00B1131A70102300518325 /* Build configuration list for PBXProject "Step It Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B00B14E1A70102300518325 /* Debug */,
+				7B00B14F1A70102300518325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B00B1501A70102300518325 /* Build configuration list for PBXNativeTarget "Step It Up" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B00B1511A70102300518325 /* Debug */,
+				7B00B1521A70102300518325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B00B1531A70102300518325 /* Build configuration list for PBXNativeTarget "Step It UpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B00B1541A70102300518325 /* Debug */,
+				7B00B1551A70102300518325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B00B1101A70102300518325 /* Project object */;
+}
