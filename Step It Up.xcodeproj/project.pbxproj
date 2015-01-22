@@ -16,7 +16,6 @@
 		7B00B12F1A70102300518325 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B12D1A70102300518325 /* Main_iPhone.storyboard */; };
 		7B00B1321A70102300518325 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B1301A70102300518325 /* Main_iPad.storyboard */; };
 		7B00B1351A70102300518325 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B1341A70102300518325 /* MasterViewController.m */; };
-		7B00B1381A70102300518325 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B1371A70102300518325 /* DetailViewController.m */; };
 		7B00B13A1A70102300518325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B1391A70102300518325 /* Images.xcassets */; };
 		7B00B1411A70102300518325 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B00B1401A70102300518325 /* XCTest.framework */; };
 		7B00B1421A70102300518325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B00B11B1A70102300518325 /* Foundation.framework */; };
@@ -24,6 +23,14 @@
 		7B00B14B1A70102300518325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B1491A70102300518325 /* InfoPlist.strings */; };
 		7B00B14D1A70102300518325 /* Step_It_UpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B14C1A70102300518325 /* Step_It_UpTests.m */; };
 		7B00B1631A7044E700518325 /* LoggingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B1621A7044E700518325 /* LoggingHelper.m */; };
+		ED4A70BA1A71956D007BC986 /* AMSlideMenuContentSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A70AC1A71956D007BC986 /* AMSlideMenuContentSegue.m */; };
+		ED4A70BB1A71956D007BC986 /* AMSlideMenuLeftMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A70AE1A71956D007BC986 /* AMSlideMenuLeftMenuSegue.m */; };
+		ED4A70BC1A71956D007BC986 /* AMSlideMenuLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A70B01A71956D007BC986 /* AMSlideMenuLeftTableViewController.m */; };
+		ED4A70BD1A71956D007BC986 /* AMSlideMenuMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A70B21A71956D007BC986 /* AMSlideMenuMainViewController.m */; };
+		ED4A70BE1A71956D007BC986 /* AMSlideMenuRightMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A70B51A71956D007BC986 /* AMSlideMenuRightMenuSegue.m */; };
+		ED4A70BF1A71956D007BC986 /* AMSlideMenuRightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A70B71A71956D007BC986 /* AMSlideMenuRightTableViewController.m */; };
+		ED4A70C01A71956D007BC986 /* UIViewController+AMSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A70B91A71956D007BC986 /* UIViewController+AMSlideMenu.m */; };
+		ED4A711E1A71974D007BC986 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4A711D1A71974D007BC986 /* MainVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +58,6 @@
 		7B00B1311A70102300518325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		7B00B1331A70102300518325 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		7B00B1341A70102300518325 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		7B00B1361A70102300518325 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		7B00B1371A70102300518325 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		7B00B1391A70102300518325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B00B13F1A70102300518325 /* Step It UpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Step It UpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B00B1401A70102300518325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,6 +66,23 @@
 		7B00B14C1A70102300518325 /* Step_It_UpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Step_It_UpTests.m; sourceTree = "<group>"; };
 		7B00B1611A7044E700518325 /* LoggingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingHelper.h; sourceTree = "<group>"; };
 		7B00B1621A7044E700518325 /* LoggingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggingHelper.m; sourceTree = "<group>"; };
+		ED4A70AB1A71956D007BC986 /* AMSlideMenuContentSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuContentSegue.h; sourceTree = "<group>"; };
+		ED4A70AC1A71956D007BC986 /* AMSlideMenuContentSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuContentSegue.m; sourceTree = "<group>"; };
+		ED4A70AD1A71956D007BC986 /* AMSlideMenuLeftMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuLeftMenuSegue.h; sourceTree = "<group>"; };
+		ED4A70AE1A71956D007BC986 /* AMSlideMenuLeftMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuLeftMenuSegue.m; sourceTree = "<group>"; };
+		ED4A70AF1A71956D007BC986 /* AMSlideMenuLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuLeftTableViewController.h; sourceTree = "<group>"; };
+		ED4A70B01A71956D007BC986 /* AMSlideMenuLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuLeftTableViewController.m; sourceTree = "<group>"; };
+		ED4A70B11A71956D007BC986 /* AMSlideMenuMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuMainViewController.h; sourceTree = "<group>"; };
+		ED4A70B21A71956D007BC986 /* AMSlideMenuMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuMainViewController.m; sourceTree = "<group>"; };
+		ED4A70B31A71956D007BC986 /* AMSlideMenuProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuProtocols.h; sourceTree = "<group>"; };
+		ED4A70B41A71956D007BC986 /* AMSlideMenuRightMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuRightMenuSegue.h; sourceTree = "<group>"; };
+		ED4A70B51A71956D007BC986 /* AMSlideMenuRightMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuRightMenuSegue.m; sourceTree = "<group>"; };
+		ED4A70B61A71956D007BC986 /* AMSlideMenuRightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSlideMenuRightTableViewController.h; sourceTree = "<group>"; };
+		ED4A70B71A71956D007BC986 /* AMSlideMenuRightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSlideMenuRightTableViewController.m; sourceTree = "<group>"; };
+		ED4A70B81A71956D007BC986 /* UIViewController+AMSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMSlideMenu.h"; sourceTree = "<group>"; };
+		ED4A70B91A71956D007BC986 /* UIViewController+AMSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMSlideMenu.m"; sourceTree = "<group>"; };
+		ED4A711C1A71974D007BC986 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		ED4A711D1A71974D007BC986 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +142,7 @@
 		7B00B1211A70102300518325 /* Step It Up */ = {
 			isa = PBXGroup;
 			children = (
+				ED4A70AA1A71956D007BC986 /* AMSlideMenu */,
 				7B00B1561A70432800518325 /* challengeInfo */,
 				7B00B1571A7043FF00518325 /* data */,
 				7B00B1601A70444B00518325 /* home */,
@@ -133,12 +156,10 @@
 				7B00B1581A70440E00518325 /* utils */,
 				7B00B12A1A70102300518325 /* AppDelegate.h */,
 				7B00B12B1A70102300518325 /* AppDelegate.m */,
-				7B00B12D1A70102300518325 /* Main_iPhone.storyboard */,
-				7B00B1301A70102300518325 /* Main_iPad.storyboard */,
 				7B00B1331A70102300518325 /* MasterViewController.h */,
 				7B00B1341A70102300518325 /* MasterViewController.m */,
-				7B00B1361A70102300518325 /* DetailViewController.h */,
-				7B00B1371A70102300518325 /* DetailViewController.m */,
+				ED4A711C1A71974D007BC986 /* MainVC.h */,
+				ED4A711D1A71974D007BC986 /* MainVC.m */,
 				7B00B1391A70102300518325 /* Images.xcassets */,
 				7B00B1221A70102300518325 /* Supporting Files */,
 			);
@@ -148,6 +169,8 @@
 		7B00B1221A70102300518325 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B00B1301A70102300518325 /* Main_iPad.storyboard */,
+				7B00B12D1A70102300518325 /* Main_iPhone.storyboard */,
 				7B00B1231A70102300518325 /* Step It Up-Info.plist */,
 				7B00B1241A70102300518325 /* InfoPlist.strings */,
 				7B00B1271A70102300518325 /* main.m */,
@@ -253,6 +276,28 @@
 			name = home;
 			sourceTree = "<group>";
 		};
+		ED4A70AA1A71956D007BC986 /* AMSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A70AB1A71956D007BC986 /* AMSlideMenuContentSegue.h */,
+				ED4A70AC1A71956D007BC986 /* AMSlideMenuContentSegue.m */,
+				ED4A70AD1A71956D007BC986 /* AMSlideMenuLeftMenuSegue.h */,
+				ED4A70AE1A71956D007BC986 /* AMSlideMenuLeftMenuSegue.m */,
+				ED4A70AF1A71956D007BC986 /* AMSlideMenuLeftTableViewController.h */,
+				ED4A70B01A71956D007BC986 /* AMSlideMenuLeftTableViewController.m */,
+				ED4A70B11A71956D007BC986 /* AMSlideMenuMainViewController.h */,
+				ED4A70B21A71956D007BC986 /* AMSlideMenuMainViewController.m */,
+				ED4A70B31A71956D007BC986 /* AMSlideMenuProtocols.h */,
+				ED4A70B41A71956D007BC986 /* AMSlideMenuRightMenuSegue.h */,
+				ED4A70B51A71956D007BC986 /* AMSlideMenuRightMenuSegue.m */,
+				ED4A70B61A71956D007BC986 /* AMSlideMenuRightTableViewController.h */,
+				ED4A70B71A71956D007BC986 /* AMSlideMenuRightTableViewController.m */,
+				ED4A70B81A71956D007BC986 /* UIViewController+AMSlideMenu.h */,
+				ED4A70B91A71956D007BC986 /* UIViewController+AMSlideMenu.m */,
+			);
+			path = AMSlideMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -351,11 +396,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4A70C01A71956D007BC986 /* UIViewController+AMSlideMenu.m in Sources */,
+				ED4A70BE1A71956D007BC986 /* AMSlideMenuRightMenuSegue.m in Sources */,
+				ED4A70BA1A71956D007BC986 /* AMSlideMenuContentSegue.m in Sources */,
 				7B00B1631A7044E700518325 /* LoggingHelper.m in Sources */,
+				ED4A70BF1A71956D007BC986 /* AMSlideMenuRightTableViewController.m in Sources */,
+				ED4A70BD1A71956D007BC986 /* AMSlideMenuMainViewController.m in Sources */,
 				7B00B12C1A70102300518325 /* AppDelegate.m in Sources */,
 				7B00B1351A70102300518325 /* MasterViewController.m in Sources */,
+				ED4A70BC1A71956D007BC986 /* AMSlideMenuLeftTableViewController.m in Sources */,
+				ED4A711E1A71974D007BC986 /* MainVC.m in Sources */,
+				ED4A70BB1A71956D007BC986 /* AMSlideMenuLeftMenuSegue.m in Sources */,
 				7B00B1281A70102300518325 /* main.m in Sources */,
-				7B00B1381A70102300518325 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +622,7 @@
 				7B00B1521A70102300518325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B00B1531A70102300518325 /* Build configuration list for PBXNativeTarget "Step It UpTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +631,7 @@
 				7B00B1551A70102300518325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
