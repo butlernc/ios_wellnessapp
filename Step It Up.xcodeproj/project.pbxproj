@@ -24,6 +24,11 @@
 		7B00B14B1A70102300518325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B00B1491A70102300518325 /* InfoPlist.strings */; };
 		7B00B14D1A70102300518325 /* Step_It_UpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B14C1A70102300518325 /* Step_It_UpTests.m */; };
 		7B00B1631A7044E700518325 /* LoggingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00B1621A7044E700518325 /* LoggingHelper.m */; };
+		7B3F58691A716B460050E067 /* SessionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F58681A716B460050E067 /* SessionData.m */; };
+		7B3F586C1A717A6D0050E067 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F586B1A717A6D0050E067 /* UserData.m */; };
+		7B3F586F1A717EBA0050E067 /* WeekData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F586E1A717EBA0050E067 /* WeekData.m */; };
+		7B3F58781A7197690050E067 /* WeeklyUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F58771A7197690050E067 /* WeeklyUserData.m */; };
+		7B3F587D1A719E7C0050E067 /* GoalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F587C1A719E7C0050E067 /* GoalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,16 @@
 		7B00B14C1A70102300518325 /* Step_It_UpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Step_It_UpTests.m; sourceTree = "<group>"; };
 		7B00B1611A7044E700518325 /* LoggingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingHelper.h; sourceTree = "<group>"; };
 		7B00B1621A7044E700518325 /* LoggingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggingHelper.m; sourceTree = "<group>"; };
+		7B3F58671A716B460050E067 /* SessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionData.h; sourceTree = "<group>"; };
+		7B3F58681A716B460050E067 /* SessionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionData.m; sourceTree = "<group>"; };
+		7B3F586A1A717A6D0050E067 /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		7B3F586B1A717A6D0050E067 /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		7B3F586D1A717EBA0050E067 /* WeekData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekData.h; sourceTree = "<group>"; };
+		7B3F586E1A717EBA0050E067 /* WeekData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekData.m; sourceTree = "<group>"; };
+		7B3F58761A7197690050E067 /* WeeklyUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyUserData.h; sourceTree = "<group>"; };
+		7B3F58771A7197690050E067 /* WeeklyUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyUserData.m; sourceTree = "<group>"; };
+		7B3F587B1A719E7C0050E067 /* GoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalViewController.h; sourceTree = "<group>"; };
+		7B3F587C1A719E7C0050E067 /* GoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,8 +199,11 @@
 		7B00B1571A7043FF00518325 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				7B00B1611A7044E700518325 /* LoggingHelper.h */,
-				7B00B1621A7044E700518325 /* LoggingHelper.m */,
+				7B3F58751A7197370050E067 /* LoggingHelper */,
+				7B3F58741A71972E0050E067 /* SessionData */,
+				7B3F58731A7197250050E067 /* UserData */,
+				7B3F58721A7197160050E067 /* WeekData */,
+				7B3F58711A7196F70050E067 /* WeeklyUserData */,
 			);
 			name = data;
 			sourceTree = "<group>";
@@ -249,8 +267,55 @@
 		7B00B1601A70444B00518325 /* home */ = {
 			isa = PBXGroup;
 			children = (
+				7B3F587B1A719E7C0050E067 /* GoalViewController.h */,
+				7B3F587C1A719E7C0050E067 /* GoalViewController.m */,
 			);
 			name = home;
+			sourceTree = "<group>";
+		};
+		7B3F58711A7196F70050E067 /* WeeklyUserData */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F58761A7197690050E067 /* WeeklyUserData.h */,
+				7B3F58771A7197690050E067 /* WeeklyUserData.m */,
+			);
+			name = WeeklyUserData;
+			sourceTree = "<group>";
+		};
+		7B3F58721A7197160050E067 /* WeekData */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F586D1A717EBA0050E067 /* WeekData.h */,
+				7B3F586E1A717EBA0050E067 /* WeekData.m */,
+			);
+			name = WeekData;
+			sourceTree = "<group>";
+		};
+		7B3F58731A7197250050E067 /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F586A1A717A6D0050E067 /* UserData.h */,
+				7B3F586B1A717A6D0050E067 /* UserData.m */,
+			);
+			name = UserData;
+			sourceTree = "<group>";
+		};
+		7B3F58741A71972E0050E067 /* SessionData */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F58671A716B460050E067 /* SessionData.h */,
+				7B3F58681A716B460050E067 /* SessionData.m */,
+			);
+			name = SessionData;
+			sourceTree = "<group>";
+		};
+		7B3F58751A7197370050E067 /* LoggingHelper */ = {
+			isa = PBXGroup;
+			children = (
+				7B00B1611A7044E700518325 /* LoggingHelper.h */,
+				7B00B1621A7044E700518325 /* LoggingHelper.m */,
+			);
+			name = LoggingHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,11 +416,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B3F58781A7197690050E067 /* WeeklyUserData.m in Sources */,
 				7B00B1631A7044E700518325 /* LoggingHelper.m in Sources */,
 				7B00B12C1A70102300518325 /* AppDelegate.m in Sources */,
+				7B3F586C1A717A6D0050E067 /* UserData.m in Sources */,
+				7B3F586F1A717EBA0050E067 /* WeekData.m in Sources */,
+				7B3F58691A716B460050E067 /* SessionData.m in Sources */,
 				7B00B1351A70102300518325 /* MasterViewController.m in Sources */,
 				7B00B1281A70102300518325 /* main.m in Sources */,
 				7B00B1381A70102300518325 /* DetailViewController.m in Sources */,
+				7B3F587D1A719E7C0050E067 /* GoalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +640,7 @@
 				7B00B1521A70102300518325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B00B1531A70102300518325 /* Build configuration list for PBXNativeTarget "Step It UpTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +649,7 @@
 				7B00B1551A70102300518325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
